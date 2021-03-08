@@ -1,4 +1,4 @@
-package brais.models;
+package com.brais.models;
 
 import javax.swing.JPanel;
 import java.awt.*;

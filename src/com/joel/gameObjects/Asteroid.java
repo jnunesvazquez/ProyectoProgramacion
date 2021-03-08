@@ -22,4 +22,17 @@ public class Asteroid extends Coordinate{
         this.sideA = nw.sideA;
         this.sideB = nw.sideB;
     }
+
+    public float getSide(int side){
+        if(side==1){
+            return this.sideA;
+        }
+        if(side==2){
+            return this.sideB;
+        }
+        if(side!=1 && side!=2){
+            return 0;
+        }
+        return 0;
+    }
 }
