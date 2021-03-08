@@ -1,12 +1,11 @@
 package com.main;
 
-import com.brais.models.*;
-import com.brais.models.Window;
-import com.joel.gameObjects.Coordinate;
-
 import java.awt.*;
 import java.util.ArrayList;
 
+import com.brais.models.*;
+import com.brais.models.Window;
+import com.joel.gameObjects.Coordinate;
 public class Main {
 
     public static void main(String[] args) {
